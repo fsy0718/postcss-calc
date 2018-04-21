@@ -1,5 +1,5 @@
 import selectorParser from 'postcss-selector-parser';
-import reduceCssCalc from 'reduce-css-calc';
+import reduceCssCalc from '@jfkued/reduce-css-calc';
 
 const MATCH_CALC = /((?:\-[a-z]+\-)?calc)/;
 

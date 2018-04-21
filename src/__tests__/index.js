@@ -25,6 +25,12 @@ function testThrows(message, input, expected, opts = {}) {
 }
 
 test(
+  'should discard zero values (reduce-css-calc#2) (1)',
+  'foo{bar:calc(100% - 10rpx)}',
+  'foo{bar:calc(100% - 10rpx)}'
+);
+
+test(
   'should reduce simple calc (1)',
   'foo{bar:calc(1px + 1px);baz:bat}',
   'foo{bar:2px;baz:bat}'

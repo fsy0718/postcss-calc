@@ -1,5 +1,5 @@
 {
-  "name": "postcss-calc",
+  "name": "@jfkued/postcss-calc",
   "version": "6.0.1",
   "description": "PostCSS plugin to reduce calc()",
   "keywords": [
@@ -46,7 +46,7 @@
     "css-unit-converter": "^1.1.1",
     "postcss": "^6.0.0",
     "postcss-selector-parser": "^2.2.2",
-    "reduce-css-calc": "^2.0.0"
+    "@jfkued/reduce-css-calc": "^2.0.0"
   },
   "ava": {
     "require": "babel-register"
